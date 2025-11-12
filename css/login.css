@@ -1,0 +1,96 @@
+.loginn {
+  width: 400px;
+  height: 470px;
+  margin: 235px auto;
+  border-radius: 10px;
+  border: 2px solid #E0E0E2;
+
+  .login-logo {
+    width: 100%;
+    height: 130px;
+
+    .login-logo-2 {
+      width: 100%;
+      height: 100%;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .login-icon {
+        width: 100px;
+        height: 80px;
+      }
+    }
+  }
+
+  .Registration {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    font-family: iranYekan;
+    .text {
+      width: 80%;
+      height: 100%;
+      font-weight: bold;
+      font-size: 19px;
+    }
+  }
+
+  .Description {
+    width: 100%;
+    height: 70px;
+    font-family: iranYekan;
+    color: #3f4071;
+    padding-top: 15px;
+    padding-right: 40px;
+    font-size: smaller;
+  }
+
+  .login-number {
+    width: 100%;
+    height: 140px;
+    form {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+    }
+    .num {
+      width: 80%;
+      height: 45px;
+      border-radius: 10px;
+      outline: unset;
+      border: 1px solid rgb(27, 127, 194);
+      font-family: iranYekan;
+      padding: 0px 10px;
+      box-sizing: border-box;
+    }
+    .login-btn {
+      width: 80%;
+      height: 50px;
+      background-color: #ef4056;
+      color: white;
+      font-family: iranYekan;
+      border-radius: 10px;
+      cursor: pointer;
+      border: 0px;
+    }
+  }
+
+}
+.Description-2 {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: iranYekan;
+  font-size: 10.5px;
+  .am {
+    color: rgb(27, 127, 194);
+    text-decoration: none;
+  }
+}

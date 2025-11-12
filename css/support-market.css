@@ -1,0 +1,41 @@
+.support {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #EF4056;
+  position: fixed;
+  right: 60px;
+  top: 90%;
+  a{
+  svg {
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+  }
+}
+}
+
+
+
+.supermarket{
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  position: fixed;
+  font-family: iranYekan;
+  font-size: 20px;
+  color: white;
+  top: 90%;
+  left: 60px;
+  background-color: #029a49;
+  a{
+    all: unset;
+    cursor: pointer;
+  }
+}

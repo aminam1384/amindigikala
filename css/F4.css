@@ -1,0 +1,61 @@
+.F4{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    .F4-container{
+        width: 90%;
+        height: 100%;
+        background-color: #3C4B6D;
+        border-radius: 10px;
+        display: flex;
+        padding: 0px 15px;
+        box-sizing: border-box;
+        .F4-item1{
+            width: 20%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                height: 70%;                
+            }
+            p{
+                width: 80%;
+                height: 100%;
+                font-family: iranYekan;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 21px;
+                color: white;
+            }
+        }
+        .F4-item2{
+            width: 75%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            gap: 13px;
+            img{
+                height: 60%;
+            }
+        }
+        .F4-item3{
+            width: 5%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 44px;
+                height:44px;
+                background-color: white;
+                border-radius: 10px;
+            }
+        }
+    }
+}

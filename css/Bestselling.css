@@ -1,0 +1,124 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Best-selling {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+  .Best-selling-container {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    border: 1px solid #d1d1d1c5;
+    border-radius: 20px;
+    .Best-selling-title {
+      width: 100%;
+      height: 15%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      font-family: iranYekan;
+      font-size: 25px;
+      svg {
+        width: 20px;
+        height: 23px;
+        fill: #f9a825;
+      }
+    }
+
+    .Best-selling-pic {
+      width: 100%;
+      height: 85%;
+
+      .swiper-slide {
+        display: flex;
+        flex-flow: column nowrap;
+
+        .Bs-top,
+        .Bs-middle,
+        .Bs-bottom {
+          width: 100%;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: center;
+          align-items: center;
+          padding: 10px;
+          box-sizing: border-box;
+        }
+        .Bs-top-pic,
+        .Bs-middle-pic,
+        .Bs-bottom-pic {
+          width: 30%;
+          img {
+            width: 90%;
+          }
+        }
+        .Bs-top-num,
+        .Bs-middle-num,
+        .Bs-bottom-num {
+          width: 10%;
+          height: 100%;
+          color: #19bfd3;
+          font-family: iranYekan;
+          font-weight: bold;
+          font-size: 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .Bs-top-about,
+        .Bs-middle-about,
+        .Bs-bottom-about {
+          width: 60%;
+          font-family: iranYekan;
+          font-size: 13px;
+          padding: 0px 8px 0px 0px;
+          box-sizing: border-box;
+          p {
+            direction: rtl;
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 40px;
+  height: 40px;
+  color: black;
+  background-color: rgba(236, 234, 234, 0.6);
+  border-radius: 50%;
+  padding: 0px 15px;
+  box-sizing: border-box;
+  svg {
+    width: 8px;
+  }
+}

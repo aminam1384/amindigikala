@@ -1,0 +1,104 @@
+.product-content-2 {
+  width: 100%;
+  height: 415px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+
+  .product-content-container-2 {
+    width: 70%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #d3d3d3bd;
+    border-radius: 20px;
+    .P-content {
+      width: 25%;
+      height: 100%;
+      display: flex;
+      flex-flow: column nowrap;
+
+      padding: 20px;
+      box-sizing: border-box;
+      gap: 20px;
+      .P-title {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 5px;
+        .P-T1 {
+          font-family: iranYekan;
+          font-size: 18px;
+        }
+        .P-T2 {
+          font-family: iranYekan;
+          font-size: 12.5px;
+          color: gray;
+        }
+      }
+
+      .P-pic {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column nowrap;
+        padding: 0px;
+        box-sizing: border-box;
+        gap: 20px;
+        .P-pic1 {
+          width: 70%;
+          height: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-flow: row nowrap;
+          gap: 15px;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .P-pic2 {
+          width: 70%;
+          height: 50%;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: center;
+          align-items: center;
+          gap: 15px;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+      .P-see-more {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a {
+          all: unset;
+          cursor: pointer;
+          color: #19cbe5;
+          font-family: iranYekan;
+          svg {
+            width: 18px;
+            height: 18px;
+            fill: #19cbe5;
+          }
+        }
+      }
+    }
+  }
+  .P-content-borderleft {
+    border-left: 1px solid #d3d3d3bd;
+  }
+}

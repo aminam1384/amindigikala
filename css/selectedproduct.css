@@ -1,0 +1,124 @@
+.selectedproduct {
+  width: 100%;
+  height: 850px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  .SP-container {
+    width: 70%;
+    height: 100%;
+    border: 1px solid #c0c2c5;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    .SP-title {
+      width: 100%;
+      height: 10%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: iranYekan;
+      font-size: 20px;
+      gap: 10px;
+      svg {
+        width: 24px;
+        height: 24px;
+        fill: #ef4056;
+      }
+    }
+
+    .SP-content {
+      width: 100%;
+      height: 90%;
+      display: flex;
+      flex-flow: column nowrap;
+      
+      .SP-content1,
+      .SP-content2,
+      .SP-content3 {
+        width: 100%;
+        height: 33%;
+        display: flex;
+        .SP-content1-item {
+          width: 17%;
+          height: 100%;
+          display: flex;
+          flex-flow: column nowrap;
+          align-items: center;
+          padding: 15px;
+          box-sizing: border-box;
+          gap: 10px;
+          cursor: pointer;
+
+          .SP-C-pic {
+            width: 100%;
+            height: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+              width: 150px;
+              height: 150px;
+            }
+          }
+          .SP-C-middle {
+            width: 100%;
+            height: 10%;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            justify-content: center;
+            padding: 0px 10px;
+            box-sizing: border-box;
+            .Discount {
+              width: fit-content;
+              height: fit-content;
+              color: white;
+              background-color: #d22c4e;
+              font-family: iranYekan;
+              font-size: 14px;
+              border-radius: 11px;
+              padding: 1px 5px;
+              box-sizing: border-box;
+            }
+            .price {
+              width: 80%;
+              height: 100%;
+              color: black;
+              font-family: iranYekan;
+              font-size: 16px;
+              direction: ltr;
+              display: flex;
+              flex-flow: row nowrap;
+              gap: 2px;
+              align-items: center;
+              svg {
+                width: 16px;
+                height: 16px;
+                fill: #424750;
+              }
+            }
+          }
+          .SP-C-bottom {
+            width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            padding: 0px 10px;
+            box-sizing: border-box;
+            .oldprice {
+              font-family: iranYekan;
+              font-size: 13px;
+              padding: 0px 20px;
+              box-sizing: border-box;
+              text-decoration: line-through;
+              color: #c0c2c5;
+            }
+          }
+        }
+      }
+    }
+  }
+}
